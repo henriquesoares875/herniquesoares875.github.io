@@ -1,0 +1,86 @@
+
+@import "./partes/_header.css";
+@import "./partes/_container.css";
+@import "./partes/_textos.css";
+
+body{
+    background-color: rgb(244, 244, 244);
+}
+
+@media screen and (max-width: 600px){
+    .container-principal{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .chamada{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    h1{
+        font-size:5em;
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+        line-height: 80px;
+
+    }
+    
+    .sobre{
+        flex-direction: column;
+        padding-top: 40px;
+
+    }
+    .section1{
+        margin: auto;
+        overflow: hidden;
+    }
+    img{
+        width: 100%;
+    }
+    .section2{
+        margin-left: 0;
+    }
+    .h2{
+        font-size: 1em;
+        width: 100%;
+
+
+    }
+
+    .imagens{
+        width: 100%;
+    }
+    
+    .imagens div{
+        width: 160px;
+        height: 200px;
+    }
+
+    .secao-4{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .secao-4 div{
+        flex-direction: column;
+        border-bottom: 2px solid #626161;
+        border-right:none;
+        margin: auto;
+    }
+    .secao-4 div:not(:last-child){
+        border-right:none;
+    }
+    
+    footer img{
+        width: 40px;
+        margin:0 10px;
+    }
+    footer p{
+        text-align: justify;
+        padding-right: 20px;
+    }
+
+
+
+}

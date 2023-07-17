@@ -1,0 +1,61 @@
+header{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.header-icons{
+    display: flex;
+    gap: 14px;
+}
+
+.header-btn a{
+    border:2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.btn:hover{
+    box-shadow: 1px 1px 15px rgb(68, 68, 68);
+    border:2px solid  rgb(42, 42, 42);
+    background-color: rgb(42, 42, 42);
+    color: aliceblue;
+}
+
+@media screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+
+    }
+
+    .header-logo{
+        padding: 40px 0;
+    }
+    .header-icons{
+        position: fixed;
+        padding: 5px;
+        margin-top: -262px;
+        background-color: rgb(42, 42, 42);
+        width: 100%;
+        align-items:center;
+        justify-content:center;
+    }
+    i{
+        color: aliceblue;
+    }
+    
+}
+    

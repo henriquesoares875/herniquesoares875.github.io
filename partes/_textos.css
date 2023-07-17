@@ -1,0 +1,54 @@
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 5em;
+    color: rgb(45, 45, 45);
+}
+
+h2 p {
+    color: rgb(45, 45, 45);
+    font-family: 'Playfair Display', serif;
+
+
+}
+.h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    width: 42%;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.h2 p{
+    margin-top: -10px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.section2 p{
+    text-align:justify;
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+    font-size: 100;
+}
+
+.span{
+    font-size: 2em;
+}
+
+.secao-4 div p{
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+
+}
+
+h2, h3{
+    font-family: 'Playfair Display', serif;
+
+}
+
+footer p{
+    color: aliceblue;
+}
+
